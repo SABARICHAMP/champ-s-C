@@ -2,7 +2,7 @@
 int main()
 {
 	int a[10],i,n,sum=0;
-    int avg;
+    int average;
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
@@ -12,7 +12,7 @@ int main()
 	{
 	    sum+=a[i];
 	}
-    avg=sum/n;
-	printf("%d",avg);
+    average=sum/n;
+	printf("%d",average);
 	return 0;
 }
