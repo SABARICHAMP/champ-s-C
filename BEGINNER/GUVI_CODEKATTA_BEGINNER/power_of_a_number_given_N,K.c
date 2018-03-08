@@ -2,9 +2,9 @@
 #include<math.h>
 void main()
 {
-int m,n,res;
-scanf("%d",&m);
-scanf("%d",&n);
-res=pow(m,n);
-printf("%d",res);
+int x,y,result;
+scanf("%d",&x);
+scanf("%d",&y);
+result=pow(x,y);
+printf("%d",result);
 }
