@@ -1,16 +1,16 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-	char a[100];
-	char b[20];
+	char str1[100];
+	char str2[20];
 	int l,n,i;
 	int t;
-	scanf("%s",a);
-	scanf("%s",b);
-	 l=strlen(a);
-     n=strlen(b);
+	scanf("%s",str1);
+	scanf("%s",str2);
+	 l=strlen(str1);
+     n=strlen(str2);
      for(i=0;i<n;i++){
-     	a[l]=b[i];
+     	str1[l]=str2[i];
      	l++;
      	
 	 }
