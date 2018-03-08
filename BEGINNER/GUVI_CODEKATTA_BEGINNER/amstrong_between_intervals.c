@@ -1,0 +1,51 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+long int x,sum=0,t,rem=0,y,i,g=0,t1;
+scanf("%d",&n);
+scanf("%d",&m);
+if(n>=999)
+{
+for(i=x;i<y;i++)
+{
+    t=i;
+    t1=i;
+    while(t1!=0)
+    {
+        t1=t1/10;
+        g++;
+    }
+while(t!=0)
+{
+    rem=t%10;
+    sum+=pow(rem,g);
+    t=t/10;
+}
+if(sum==i)
+{
+printf("%d ",i);
+}
+sum=0;
+g=0;
+}
+}
+else
+{
+for(i=x;i<y;i++)
+{
+    t=i;
+    while(t!=0)
+{
+    rem=t%10;
+    sum+=rem*rem*rem;
+    t=t/10;
+}
+if(sum==i)
+{
+printf("%d ",i);
+}
+sum=0;
+}
+}
+}
